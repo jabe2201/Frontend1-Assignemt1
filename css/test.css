@@ -1,0 +1,81 @@
+.Box {
+    display: flex;
+    background-color:wheat;
+    border: 5px solid black;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.Text-Box {
+    display: flex;
+    justify-content: center;
+}
+
+.Box-1 {
+    flex-grow: 5;
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    background-color: red;
+    flex-grow: 5;
+}
+
+nav {
+    flex-grow: 1;
+    background-color: blue;
+}
+ 
+main {
+    background-color: green;
+    margin: 0%;
+    padding: 0%;
+}
+
+.Main-pic {
+    background-color: blueviolet;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+.Main-pic img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border: 2px solid black;
+    display: flex;
+}
+
+
+
+
+
+/* main p {
+    margin-top:0%;
+    width: 500px;
+    
+}
+
+main img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    float: left;
+    background-color: blueviolet;
+    margin-top: 0px;
+    padding: 40px;
+    border: 5px solid black;
+
+} */
+

@@ -1,0 +1,246 @@
+
+
+body {
+    background-color: black;
+    font-family: bangers;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.Outer-Box {
+    display: flex;
+    width: auto;
+    height: auto;
+    border: 4px solid white;
+    margin: auto;
+    flex-direction: column;
+}
+
+.Header-Box {
+    flex-grow: 1;
+    border: 4px solid white;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header-Box img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-left: 30px;
+}
+
+.Center-Box {
+    display: flex;
+    flex-direction: row;
+}
+
+.Center-Box img {
+    width: 200px;
+    height: 700px;
+    border: 4px solid white;
+    object-fit: fill;
+}
+
+.Center-Box nav {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 4px solid white;
+    margin: 0;
+    background-color: #FDE311;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+a {
+    color: #064966;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: black;
+}
+
+.Center-Box-Main {
+    flex-grow: 1;
+    border: 4px solid white;
+}
+
+.Main-Pic {
+    float: right;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    line-height: 30px;
+    font-size: 25px;
+    color: #AF3C3A;
+    background-color: #1E1A18;
+}
+
+.Main-Pic img {
+    width: 150px;
+    height: 250px;
+    object-fit: fill;
+    border: 4px solid #AF3C3A;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Main-Pic p {
+    padding-left: 5px;
+}
+
+.Main-Text {
+    line-height: 30px;
+    margin: 10px;
+}
+
+
+.Footer-Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px solid white;
+    line-height: 0px;
+    padding: 20px 0px;
+}
+
+footer {
+    margin-right: 15px;
+}
+
+
+.Portfolio-nav {
+    background-color: #FDE311;
+    border: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#Portfolio-Center-Box {
+    border: 4px solid white;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+
+table {
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+th {
+    font-family: 'Special Elite', cursive;
+    text-decoration: underline;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+td {
+    width: 250px;
+    height: 104px;
+    padding-right: 20px;
+    font-family: 'Special Elite', cursive;
+    padding-top: 10px;
+}
+
+td img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border: 2px solid #AF3C3A;
+    margin-right: 10px;
+    vertical-align:middle;
+}
+
+.Table-info {
+    text-align: left;
+}
+
+.Contact-Center-Box {
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact-Center-Box nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid white;
+    background-color: #FDE311;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 700px;
+}
+
+.Contact-Center-Box main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 4px solid white;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#Batman-Repo {
+    font-family: 'Josefin Sans';
+}
+
+iframe {
+    border: 4px solid white;
+}
+
+@media screen and (max-width: 900px) {
+    .Center-Box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Center-Box img {
+        width: 0px;
+        height: 0px;
+    }
+
+    .Main-Pic {
+        float: right;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row-reverse;
+        border-left: 4px solid white;
+        border-bottom: 4px solid white;
+        line-height: 15px;
+        font-size: 10px;
+        color: #AF3C3A;
+        background-color: #1E1A18;
+    }
+
+    .Main-Pic img {
+        width: 100px;
+        height: 125px;
+        object-fit: fill;
+        border: 1px solid #AF3C3A;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+}
